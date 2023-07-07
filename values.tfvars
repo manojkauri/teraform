@@ -1,3 +1,6 @@
-aws_region         = "ap-south-2"
+aws_region         = "ap-south-1"
 ntier-vpc-range    = "10.10.0.0/16"
-application1-cidrs = "192.168.1.0/24"
+application1-cidrs = "192.168.0.0/24"
+application2-cidrs = "192.168.1.0/24"
+db1-cidrs          = "192.168.2.0/24"
+db2-cidrs          = "192.168.3.0/24"

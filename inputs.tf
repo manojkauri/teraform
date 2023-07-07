@@ -15,3 +15,21 @@ variable "application1-cidrs" {
   default = "192.168.1.0/24"
 
 }
+
+variable "application2-cidrs" {
+  type    = string
+  default = "192.168.2.0/24"
+
+}
+
+variable "db1-cidrs" {
+  type    = string
+  default = "192.168.3.0/24"
+
+}
+
+variable "db2-cidrs" {
+  type    = string
+  default = "192.168.4.0/24"
+
+}
