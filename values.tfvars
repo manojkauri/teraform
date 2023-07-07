@@ -1,3 +1,6 @@
-aws_region = "ap-south-2"
-vpc-range  = "10.10.0.0/16"
-subnets    = ["10.10.1.0/24", "10.10.2.0/24", "10.10.3.0/24", "10.10.4.0/24", ]
+aws_region = "ap-south-1"
+vpc_info = {
+  subnet_azs   = ["a", "b", "a", "b", "a", "b", ]
+  subnet_names = ["ap1", "ap2", "db1", "db2", "web1", "web2", ]
+  vpc_cidr     = "192.168.0.0/16"
+}
